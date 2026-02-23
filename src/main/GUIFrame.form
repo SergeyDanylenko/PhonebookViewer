@@ -1,0 +1,1646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="main.GUIFrame">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="0" left="6" bottom="6" right="6"/>
+    <constraints>
+      <xy x="20" y="20" width="1023" height="734"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="fa685" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="620"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="712c6" binding="tabABC" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="За алфавітом"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="7a76f" binding="tabbedPane2" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="260" height="550"/>
+                    <preferred-size width="281" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Times New Roman" size="13"/>
+                  <tabPlacement value="2"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="f473b" binding="pan0" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="А"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="7e0">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="6c83f" class="javax.swing.JList" binding="list0" custom-create="true">
+                            <constraints/>
+                            <properties>
+                              <enabled value="true"/>
+                              <font name="Times New Roman" size="14"/>
+                              <selectionMode value="0"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="5e9a2" binding="pan1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Б"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="dd7ad">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="6907a" class="javax.swing.JList" binding="list1" custom-create="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                              <selectionMode value="0"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="5974b" binding="pan2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="В"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="ce2d2">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="c815a" class="javax.swing.JList" binding="list2" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="8a555" binding="pan3" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Г"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="4c19b">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="7b7e3" class="javax.swing.JList" binding="list3" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="33185" binding="pan4" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Д"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="28b04">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="ab60c" class="javax.swing.JList" binding="list4" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="6dd37" binding="pan5" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Е"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="17632">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="394c3" class="javax.swing.JList" binding="list5" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="283d7" binding="pan6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Є"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="81f51">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="b0e1d" class="javax.swing.JList" binding="list6" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="e6a2e" binding="pan7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Ж"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="ec899">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="6ba95" class="javax.swing.JList" binding="list7" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="51ae7" binding="pan8" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="З"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="5feed">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="10e95" class="javax.swing.JList" binding="list8" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="27a25" binding="pan9" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="І"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="e13f3">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="1a431" class="javax.swing.JList" binding="list9" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="1990f" binding="pan10" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Ї"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="6b1fb">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="67521" class="javax.swing.JList" binding="list10" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="6d44f" binding="pan11" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="К"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="ec68">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="7d07e" class="javax.swing.JList" binding="list11" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="989e0" binding="pan12" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Л"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="291f7">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="6f721" class="javax.swing.JList" binding="list12" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="abe13" binding="pan13" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="М"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="a409b">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="7a8eb" class="javax.swing.JList" binding="list13" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="35385" binding="pan14" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Н"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="95aa">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="8d6f8" class="javax.swing.JList" binding="list14" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="666e3" binding="pan15" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="О"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="4ff">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="8e1c4" class="javax.swing.JList" binding="list15" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="5eb03" binding="pan16" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="П"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="89ce9">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="19ad1" class="javax.swing.JList" binding="list16" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="d1809" binding="pan17" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Р"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="4b73f">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="442a6" class="javax.swing.JList" binding="list17" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="c424d" binding="pan18" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="С"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="58d">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="fc325" class="javax.swing.JList" binding="list18" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="4d7be" binding="pan19" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Т"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="b7b6a">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="68602" class="javax.swing.JList" binding="list19" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="9469f" binding="pan20" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="У"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="98a02">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="dd4a6" class="javax.swing.JList" binding="list20" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="b1049" binding="pan21" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Ф"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="15f93">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="3d56" class="javax.swing.JList" binding="list21" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="645fd" binding="pan22" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Х"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="b201a">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="ddd2d" class="javax.swing.JList" binding="list22" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="cd092" binding="pan23" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Ц"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="f467d">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="8bbbf" class="javax.swing.JList" binding="list23" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="d88af" binding="pan24" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Ч"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="c2b8">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="def54" class="javax.swing.JList" binding="list24" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="7579d" binding="pan25" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Ш"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="b6ded">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="c9c7a" class="javax.swing.JList" binding="list25" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="3ea7f" binding="pan26" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Щ"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="9c4ff">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="de44b" class="javax.swing.JList" binding="list26" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="5037c" binding="pan27" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Ю"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="f7956">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="18efe" class="javax.swing.JList" binding="list27" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="d9bf8" binding="pan28" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Я"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="78192">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="d079d" class="javax.swing.JList" binding="list28" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                  <grid id="5d67" binding="pan29" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Інші"/>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="8a64c">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="fec9f" class="javax.swing.JList" binding="list29" custom-create="true" default-binding="true">
+                            <constraints/>
+                            <properties>
+                              <font name="Times New Roman" size="14"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </grid>
+          <grid id="34515" binding="tabDepartment" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="3" left="3" bottom="3" right="3"/>
+            <constraints>
+              <tabbedpane title="За підрозділом"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="b2f2b">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="62802" class="javax.swing.JList" binding="listDepartments" custom-create="true">
+                    <constraints/>
+                    <properties>
+                      <font name="Times New Roman" size="14"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <grid id="c6371" binding="panelStatus" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="3" left="3" bottom="3" right="3"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+        </properties>
+        <border type="none">
+          <color color="-16777216"/>
+        </border>
+        <children/>
+      </grid>
+      <grid id="3d759" binding="rightPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="3" left="3" bottom="3" right="3"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="93717" binding="panelButtons" layout-manager="GridLayoutManager" row-count="1" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="113f9" class="javax.swing.JButton" binding="btnAdd">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="icon/add.png"/>
+                  <text value=""/>
+                  <toolTipText value="Додати"/>
+                </properties>
+              </component>
+              <hspacer id="d6db">
+                <constraints>
+                  <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="9c6d" class="javax.swing.JButton" binding="btnEdit">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="icon/edit.png"/>
+                  <text value=""/>
+                  <toolTipText value="Редагувати"/>
+                </properties>
+              </component>
+              <component id="97e8a" class="javax.swing.JButton" binding="btnDel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="icon/delete.png"/>
+                  <text value=""/>
+                  <toolTipText value="Видалити"/>
+                </properties>
+              </component>
+              <component id="e3bf5" class="javax.swing.JButton" binding="btnSave">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="false"/>
+                  <icon value="icon/save.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <hspacer id="715f6">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="972db" class="javax.swing.JButton" binding="btnMail">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <icon value="icon/mail.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="7e27c" class="javax.swing.JButton" binding="btnExit">
+                <constraints>
+                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="icon/exit.png"/>
+                  <text value=""/>
+                  <toolTipText value="Вихід"/>
+                </properties>
+              </component>
+              <component id="1c916" class="javax.swing.JTextField" binding="textFieldSearch">
+                <constraints>
+                  <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Times New Roman" size="16"/>
+                </properties>
+              </component>
+              <component id="b60b" class="javax.swing.JButton" binding="btnSearch">
+                <constraints>
+                  <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="icon/search.png"/>
+                  <text value=""/>
+                  <toolTipText value="Пошук"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <scrollpane id="d2320" binding="scrollEmployeesABC">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Times New Roman" size="14"/>
+            </properties>
+            <border type="none">
+              <title-color color="-16777216"/>
+              <size top="3" left="3" bottom="3" right="3"/>
+            </border>
+            <children>
+              <component id="1bd2a" class="javax.swing.JTable" binding="table1" custom-create="true" default-binding="true">
+                <constraints/>
+                <properties>
+                  <autoCreateRowSorter value="true"/>
+                  <fillsViewportHeight value="true"/>
+                  <font name="Times New Roman" size="16"/>
+                  <intercellSpacing width="1" height="1"/>
+                  <preferredScrollableViewportSize width="-1" height="-1"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <grid id="884e6" binding="panelDetails" layout-manager="GridLayoutManager" row-count="9" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="1">
+            <margin top="10" left="0" bottom="3" right="3"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="line">
+              <color color="-2302756"/>
+            </border>
+            <children>
+              <grid id="ab86" binding="panelDetailsLast_name" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="5" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="692" height="24"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="6442b" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="71aa4" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Times New Roman" size="16"/>
+                          <text value="Прізвище"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="88817" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="565" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="89144" class="javax.swing.JTextField" binding="txtFld_last">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <enabled value="true"/>
+                          <font name="Times New Roman" size="18"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="89291" binding="panelDetailsFirst_name" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="5" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="f3589" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman" size="16"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="c8156" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Times New Roman" size="16"/>
+                          <text value="Ім'я"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="b430c" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="565" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="56b4b" class="javax.swing.JTextField" binding="txtFld_first">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <enabled value="true"/>
+                          <font name="Times New Roman" size="18"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="e8da1" binding="panelDetailsMiddle_name" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="5" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="c9861" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="4b7e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Times New Roman" size="16"/>
+                          <text value="По батькові"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="b407c" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="565" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="7ab7c" class="javax.swing.JTextField" binding="txtFld_middle">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <enabled value="true"/>
+                          <font name="Times New Roman" size="18"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="fc920" binding="panelDetailsPost_name" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="5" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="a1467" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="88b53" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Times New Roman" size="16"/>
+                          <text value="Посада"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="437b4" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="565" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="f3d29" class="javax.swing.JTextField" binding="txtFld_post">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <enabled value="true"/>
+                          <font name="Times New Roman" size="18"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="c756b" binding="panelDetailsCategory_name" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="5" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="a3ec5" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Times New Roman" size="16"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="89714" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Times New Roman" size="16"/>
+                          <text value="Підрозділ"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="9686" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="565" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="4edad" class="javax.swing.JTextField" binding="txtFld_category">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <enabled value="true"/>
+                          <font name="Times New Roman" size="18"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="99674" binding="panelDetailsWork_phone" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="5" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="d1968" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="1a8fa" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Times New Roman" size="16"/>
+                          <text value="Роб.телефон"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="ce962" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="565" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="9094" class="javax.swing.JTextField" binding="txtFld_work">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <enabled value="true"/>
+                          <font name="Times New Roman" size="18"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="c20da" binding="panelDetailsHome_phone" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="5" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="2bb2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="62294" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Times New Roman" size="16"/>
+                          <text value="Дом.телефон"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="df8b3" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="565" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="ee16d" class="javax.swing.JTextField" binding="txtFld_home">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <enabled value="true"/>
+                          <font name="Times New Roman" size="18"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="a6514" binding="panelDetailsEmail_address" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="5" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="28a3f" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="af0e9" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Times New Roman" size="16"/>
+                          <text value="E-mail"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="33fea" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="565" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="18741" class="javax.swing.JTextField" binding="txtFld_mail">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <enabled value="true"/>
+                          <font name="Times New Roman" size="18"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="91d03" binding="panelDetailsNote_string" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="5" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="649b8" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="f2366" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Times New Roman" size="16"/>
+                          <text value="Примітка"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="77050" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="565" height="24"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="8d5aa" class="javax.swing.JTextField" binding="txtFld_note">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <enabled value="true"/>
+                          <font name="Times New Roman" size="18"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="65cbd" binding="menuRootPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="25"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="b7427" binding="panelJMenuBar" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="0">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font name="Times New Roman" size="14"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="59d1" class="javax.swing.JMenuBar" binding="mainBar" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="31eda" class="javax.swing.JMenu" binding="menuFile" layout-manager="FlowLayout" hgap="3" vgap="3" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <armed value="false"/>
+                      <background color="-1513240"/>
+                      <font name="Times New Roman" size="14"/>
+                      <hideActionText value="false"/>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <popupMenuVisible value="false"/>
+                      <selected value="false"/>
+                      <text value="&amp;Файл"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="f1387" class="javax.swing.JMenuItem" binding="importItem">
+                        <constraints/>
+                        <properties>
+                          <font name="Times New Roman" size="14"/>
+                          <icon value="icon/import.png"/>
+                          <text value="&amp;Імпорт"/>
+                        </properties>
+                      </component>
+                      <component id="7f50d" class="javax.swing.JMenuItem" binding="exportItem">
+                        <constraints/>
+                        <properties>
+                          <font name="Times New Roman" size="14"/>
+                          <icon value="icon/export.png"/>
+                          <text value="Експорт"/>
+                        </properties>
+                      </component>
+                      <component id="2659b" class="javax.swing.JMenuItem" binding="propsItem">
+                        <constraints/>
+                        <properties>
+                          <font name="Times New Roman" size="14"/>
+                          <icon value="icon/options.png"/>
+                          <text value="Налаштування"/>
+                        </properties>
+                      </component>
+                      <component id="6a9fa" class="javax.swing.JMenuItem" binding="exitItem">
+                        <constraints/>
+                        <properties>
+                          <font name="Times New Roman" size="14"/>
+                          <icon value="icon/tb_exit.png"/>
+                          <text value="Вихід"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="85533" class="javax.swing.JMenu" binding="menuInfo" layout-manager="FlowLayout" hgap="3" vgap="3" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <font name="Times New Roman" size="14"/>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <popupMenuVisible value="false"/>
+                      <text value="&amp;Довідка"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="aa92b" class="javax.swing.JMenuItem" binding="infoItem">
+                        <constraints/>
+                        <properties>
+                          <font name="Times New Roman" size="14"/>
+                          <icon value="icon/information.png"/>
+                          <text value="Про програму"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

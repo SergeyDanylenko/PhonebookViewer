@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+      <!--<property name="connection.url">jdbc:sqlite:\\ASUP-9\temp\phonebook_asup-9\new_phonebook\phonebook.db</property>-->
+      <property name="connection.url">jdbc:sqlite:C:/Phonebook/DataBase/phonebook.db</property>
+      <!--<property name="connection.url">jdbc:sqlite:\\server-data\DataBase\phonebook_java.db</property>-->
+      <property name="connection.driver_class">org.sqlite.JDBC</property>
+      <property name="connection.username"/>
+      <property name="connection.password"/>
+      <property name="show_sql">false</property>
+      <property name="hibernate.dialect">org.hibernate.dialect.HSQLDialect</property>
+      <property name="current_session_context_class">thread</property>
+      <!-- DB schema will be updated if needed -->
+      <!--<property name="hbm2ddl.auto">update</property>-->
+      <property name="hibernate.connection.autocommit">true</property>
+
+      <mapping class="logic.Employee"/>
+  </session-factory>
+</hibernate-configuration>

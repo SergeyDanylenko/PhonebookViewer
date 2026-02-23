@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3140633726">
+    <data-source source="LOCAL" name="phonebook" uuid="b1db5301-2e98-400f-b552-086cc5e909f7">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:/Phonebook/DataBase/phonebook.db</jdbc-url>
+      <driver-properties>
+        <property name="encoding" value="'UTF-8'" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="phonebook" uuid="42eb8a05-2cdf-4520-937c-0afbdcd049fb">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.0.203:3306/phonebook</jdbc-url>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+      <libraries>
+        <library>
+          <url>file://$PROJECT_DIR$/../../mysql-connector-java-5.1.30/mysql-connector-java-5.1.30-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>

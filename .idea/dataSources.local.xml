@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="phonebook" uuid="b1db5301-2e98-400f-b552-086cc5e909f7">
+      <secret-storage>master_key</secret-storage>
+    </data-source>
+    <data-source name="phonebook" uuid="42eb8a05-2cdf-4520-937c-0afbdcd049fb">
+      <secret-storage>master_key</secret-storage>
+      <user-name>admin_phonebook</user-name>
+      <schema-pattern>phonebook.*</schema-pattern>
+      <default-schemas>phonebook.*</default-schemas>
+    </data-source>
+  </component>
+</project>
